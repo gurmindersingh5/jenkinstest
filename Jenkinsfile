@@ -14,7 +14,7 @@ stages {
                 git commit -m 'Updated the text'
                 git remote -v
                 echo 'made it to here'
-                git push https://gurmindersingh5:${token}@github.com/gurmindersingh5/CICD_Kubernetes HEAD:main
+                git push https://gurmindersingh5:${token}@github.com/gurmindersingh5/jenkinstest HEAD:main
             '''
     }
   }
