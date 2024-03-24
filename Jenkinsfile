@@ -8,7 +8,7 @@ stages {
     steps {
       script {
         sh '''
-                echo 'text1' >> text.txt  
+                echo 'text2' >> text.txt  
                 git add text.txt
                 git status
                 git commit -m 'Updated the text'
